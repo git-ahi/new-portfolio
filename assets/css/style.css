@@ -263,3 +263,37 @@ hr {
 .left {
   text-align: left;
 }
+
+.about-me {
+  background: #ffd60a;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #003566;
+}
+
+.about-header {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.about-content {
+  width: 60%;
+  margin: 50px 0 50px 300px;
+  display: flex;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: justify;
+}
+
+.bg-info {
+  padding-right: 100px;
+}
+
+.interests {
+  padding-left: 100px;
+  border-left: 1px solid #003566;
+}
+
+.social-icons a {
+  margin: 0 20px;
+}
