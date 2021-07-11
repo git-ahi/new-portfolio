@@ -153,8 +153,11 @@ nav ul {
 
 .tech-imgs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding: 50px 300px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 #vs-code,
