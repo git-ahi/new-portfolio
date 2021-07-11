@@ -13,7 +13,7 @@ html {
 .header {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  padding-bottom: 100px;
   background: url(../images/landing.svg) no-repeat;
   background-size: cover;
   background-position: 50% 100%;
@@ -21,7 +21,6 @@ html {
 
 .nav-bar {
   display: flex;
-  height: 80px;
   align-items: center;
   background: #001d3d;
   box-shadow: 0px 1px 4px #ffc300;
@@ -34,7 +33,7 @@ html {
 
 .header-logo img {
   margin-left: 50px;
-  height: 60px;
+  width: 60px;
 }
 
 nav {
@@ -63,10 +62,10 @@ ul button {
 }
 
 .header-banner {
-  height: 60vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 100px 0;
 }
 
 .header-content {
@@ -127,4 +126,45 @@ ul button {
   font-weight: 500;
   font-size: 18px;
   color: #001d3d;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  line-height: 59px;
+  color: #001d3d;
+}
+
+.tech-imgs {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 300px;
+}
+
+#vs-code,
+#github {
+  height: 100px;
+  width: 100px;
+}
+
+#html5,
+#css3 {
+  height: 200px;
+  width: 200px;
+}
+
+#javascript {
+  height: 240px;
+  width: 240px;
+}
+
+hr {
+  height: 1px;
+  background-color: #ffc300;
+  border: none;
 }
