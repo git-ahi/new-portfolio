@@ -20,11 +20,14 @@ html {
 }
 
 .nav-bar {
+  position: fixed;
+  width: 100vw;
   height: 80px;
   display: flex;
   align-items: center;
   background: #001d3d;
   box-shadow: 0px 1px 4px #ffc300;
+  z-index: 1;
 }
 
 .header-logo {
@@ -50,12 +53,19 @@ nav ul {
   color: #ffd60a;
 }
 
-ul button {
+.header-cta-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 119px;
   height: 36px;
   background: #ffc300;
   border: none;
   border-radius: 5px;
+}
+
+.header-cta-resume a {
+  text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 18px;
