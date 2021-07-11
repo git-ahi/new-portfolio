@@ -11,10 +11,12 @@ html {
 }
 
 .header {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
   background: url(../images/landing.svg) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
 }
 
 .nav-bar {
@@ -56,6 +58,73 @@ ul button {
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  font-size: 18px;
+  color: #001d3d;
+}
+
+.header-banner {
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-content {
+  font-family: "Poppins", sans-serif;
+  color: #ffc300;
+  width: 45%;
+}
+
+.intro {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 70px;
+}
+
+.title-description {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  color: rgba(255, 195, 0, 0.7);
+}
+
+.description {
+  width: 65%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.header-banner-img {
+  background: url(../images/IMG_20191204_105239.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  filter: drop-shadow(4px 4px 4px rgba(255, 195, 0, 0.5));
+}
+
+.header-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 172px;
+  height: 50px;
+  background: #ffc300;
+  border-radius: 25px;
+}
+
+.header-cta a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   color: #001d3d;
 }
