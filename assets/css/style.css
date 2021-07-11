@@ -20,6 +20,7 @@ html {
 }
 
 .nav-bar {
+  height: 80px;
   display: flex;
   align-items: center;
   background: #001d3d;
