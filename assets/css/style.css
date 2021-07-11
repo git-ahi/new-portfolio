@@ -168,3 +168,98 @@ hr {
   background-color: #ffc300;
   border: none;
 }
+
+.card {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  color: #001d3d;
+}
+
+.card-left,
+.card-right {
+  display: flex;
+  margin: 50px 0;
+  width: 966px;
+  height: 500px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.card-right .project-logo {
+  background: #ffc300;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.project-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background: #003566;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.project-description {
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.card-content {
+  padding: 50px 0;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.btn-card-left,
+.btn-card-right {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 156px;
+  height: 45px;
+  background: #ffc300;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.btn-card-left a {
+  text-decoration: none;
+  color: #001d3d;
+}
+
+.btn-card-right {
+  background: #003566;
+}
+
+.btn-card-right a {
+  text-decoration: none;
+  color: #ffc300;
+}
+
+.code-lang {
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.left {
+  text-align: left;
+}
