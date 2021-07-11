@@ -271,9 +271,11 @@ hr {
   color: #003566;
 }
 
-.about-header {
+.about-header,
+.contact-header {
   font-weight: bold;
   font-size: 36px;
+  padding-top: 30px;
 }
 
 .about-content {
@@ -296,4 +298,39 @@ hr {
 
 .social-icons a {
   margin: 0 20px;
+}
+
+footer {
+  background: #003566;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #ffd60a;
+}
+
+.contact-content {
+  padding: 50px;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.btn-link {
+  margin: 0 auto 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 156px;
+  height: 45px;
+  border: 2px solid #ffd60a;
+  border-radius: 25px;
+}
+
+.btn-link a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffd60a;
+}
+
+.copyright {
+  color: rgba(255, 214, 10, 0.5);
 }
