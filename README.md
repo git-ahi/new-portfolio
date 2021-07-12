@@ -32,7 +32,7 @@ This site was made entirely using:
 
 ## Support and contact details
 
-I'd love to chat! Ping me @kevocb on Twitter should any issues arise, or just say Hi!
+I'd love to chat! Ping me on [Twitter](https://twitter.com/kevocb) should any issues arise, or just say Hi!
 
 ### License
 
