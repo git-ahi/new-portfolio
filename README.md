@@ -8,6 +8,8 @@
 
 This portfolio documents my developer journey, projects carried out, experience gained and also how to reach me
 
+![Portfolio Screenshot](./assets/images/PORTFOLIO.png "Kelvin's Portfolio")
+
 ## Setup/Installation Requirements
 
 - You need a good perfoming computer/laptop
