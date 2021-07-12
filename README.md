@@ -7,7 +7,7 @@
 ## Description
 
 This portfolio documents my developer journey, projects carried out, experience gained and also how to reach me
-
+Here's a screenshot of the website.
 ![Portfolio Screenshot](./assets/images/PORTFOLIO.png "Kelvin's Portfolio")
 
 ## Setup/Installation Requirements
