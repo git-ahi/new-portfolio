@@ -12,7 +12,7 @@ Here's a screenshot of the website.
 
 ## Setup/Installation Requirements
 
-- You need a good perfoming computer/laptop
+- You need a good perfoming computer/laptop: Core i3 or equivalent with high resolution display
 - Clone from Github
 - Launch index.html file
 - All done!
