@@ -24,7 +24,11 @@ There are no known bugs currently but I look forward to improving the overall us
 
 ## Technologies Used
 
-This site was made entirely using HTML & CSS
+This site was made entirely using:
+
+- HTML
+- CSS
+- Bootstrap
 
 ## Support and contact details
 
